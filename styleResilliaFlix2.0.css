@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(./netflix.jpeg);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Bebas Neue";
+    color: rgb(207, 21, 21);
+}
+
+header {
+    align-items: center;
+    display: flex;
+    background-color: rgba(44, 42, 42, 0.6);
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+}
+
+a {
+    color: #ffffff;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    float: right;
+    list-style: none;
+}
+
+.navbar {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0 auto 0 15px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.navbar:hover {
+    color: black;
+    transition: 0.5s;
+    background-color: yellow;
+    border-radius: 15px;
+}
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    padding: 14px;
+}
